@@ -5,10 +5,10 @@ import Rating from '@mui/material/Rating'
 import Typography from '@mui/material/Typography'
 import IconButton, { iconButtonClasses } from '@mui/material/IconButton'
 import ArrowForward from '@mui/icons-material/ArrowForward'
-import { Course } from '@/interfaces/course'
+import { Hotel } from '@/interfaces/hotel'
 
 interface Props {
-  item: Course
+  item: Hotel
 }
 
 const CourseCardItem: FC<Props> = ({ item }) => {
@@ -43,11 +43,20 @@ const CourseCardItem: FC<Props> = ({ item }) => {
             mb: 2,
           }}
         >
-          <Image src={item.cover} width={760} height={760} alt={'Course ' + item.id} />
+          <Image src={item.img} width={760} height={760} alt={item.name} />
         </Box>
         <Box sx={{ mb: 2 }}>
-          <Typography component="h2" variant="h5" sx={{ mb: 2, height: 56, overflow: 'hidden', fontSize: '1.2rem' }}>
-            {item.title}
+          <Typography component="h2" variant="h5" sx={{ height: 50, overflow: 'hidden', fontSize: '1.2rem' }}>
+            {item.name}
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'text.secondary', mb: 0.5 }}>
+            {item.phoneContact}
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'text.secondary', mb: 0.5 }}>
+            {item.email}
+          </Typography>
+          <Typography variant="body2" sx={{ color: 'text.secondary', mb: 2 }}>
+            {item.address}
           </Typography>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <Rating name="rating-course" value={item.rating} max={5} sx={{ color: '#ffce31', mr: 1 }} readOnly />
@@ -59,16 +68,17 @@ const CourseCardItem: FC<Props> = ({ item }) => {
         <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <Typography variant="h5" color="primary.main">
-              {'$' + item.price}
+              {`S/. ${item.minPrice} - ${item.maxPrice}`}
             </Typography>
-            <Typography variant="h6">/ course</Typography>
           </Box>
-          <IconButton
-            color="primary"
-            sx={{ '&:hover': { backgroundColor: 'primary.main', color: 'primary.contrastText' } }}
-          >
-            <ArrowForward />
-          </IconButton>
+          <a href={item.url} target="_blank" rel="noreferrer">
+            <IconButton
+              color="primary"
+              sx={{ '&:hover': { backgroundColor: 'primary.main', color: 'primary.contrastText' } }}
+            >
+              <ArrowForward />
+            </IconButton>
+          </a>
         </Box>
       </Box>
     </Box>
