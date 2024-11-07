@@ -3,61 +3,60 @@ import type { Testimonial } from '@/interfaces/testimonial'
 export const data: Array<Testimonial> = [
   {
     id: 1,
-    title: 'Detailed learning materials',
+    title: '¡Los animales son lo mejor!',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      'Me gusta la compañia de los animales, son lo mejor que me ha pasado en la vida. Me encanta cuidarlos y darles todo mi amor. ¡Son lo mejor!',
     user: {
       id: 1,
-      name: 'Luis Sera',
-      professional: 'UI/UX Engineer',
+      name: 'Carmen Sánchez',
+      professional: 'Estudiante de veterinaria',
       photo: '1.jpg',
     },
   },
   {
     id: 2,
-    title: 'Best Quality Online Course!',
+    title: 'Disfruto la compañia de los animales',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Salgo a pasear a los perros y me encanta disfrutar de su compañia. Me encanta verlos felices y contentos.',
     user: {
       id: 1,
-      name: 'Riski',
-      professional: 'Software Engineer',
+      name: 'Pedro Rodríguez',
+      professional: 'Diseñador de UI/UX',
       photo: '2.jpg',
     },
   },
   {
     id: 3,
-    title: 'Very complete class',
-    content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    title: '¡Siempre es bueno tener una mascota!',
+    content: 'En mi casa siempre hemos tenido mascotas, son parte de la familia y siempre nos alegran el día.',
     user: {
       id: 1,
-      name: 'Nguyễn Văn',
-      professional: 'FullStack Designer',
+      name: 'Sebastián Flores',
+      professional: 'Estudiante de veterinaria',
       photo: '3.jpg',
     },
   },
   {
     id: 4,
-    title: 'Great Quality!',
+    title: 'El mejor amigo del hombre',
     content:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+      'Los perros son los mejores amigos del hombre, siempre están ahí para nosotros y nos acompañan en todo momento.',
     user: {
       id: 1,
-      name: 'Diana Jordan',
-      professional: 'SEO Expert',
+      name: 'Juan Pérez',
+      professional: 'Estudiante de medicina',
       photo: '4.jpg',
     },
   },
   {
     id: 5,
-    title: 'Detailed learning materials',
+    title: '¡Son lo mejor que me ha pasado!',
     content:
-      'Classes that provide very detailed material in term of making UI UX Design starting team making low and hight quality, system designs, using data layout and make prototypes and testing.',
+      'Como amante de los animales, me encanta cuidarlos y darles todo mi amor. Son lo mejor que me ha pasado en la vida.',
     user: {
       id: 1,
-      name: 'Ashley Graham',
-      professional: 'Back-End Developer',
+      name: 'María González',
+      professional: 'Diseñadora Gráfica',
       photo: '5.jpg',
     },
   },

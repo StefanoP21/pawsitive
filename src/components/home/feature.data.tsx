@@ -12,23 +12,24 @@ interface Data {
 
 export const data: Data[] = [
   {
-    title: 'Easy Accessable',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Fácil Acesso',
+    description: 'Nuestra plataforma es fácil de usar y accesible desde cualquier dispositivo con conexión a internet',
     icon: <ArtTrackIcon />,
   },
   {
-    title: 'More Affordable Cost',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Gama de Precios',
+    description: 'Contamos con una amplia gama de precios para que puedas elegir el que más se ajuste a tu presupuesto',
     icon: <AttachMoneyIcon />,
   },
   {
-    title: 'Flexible Study Time',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Información Actualizada',
+    description:
+      'Actualizamos constantemente nuestra información para que siempre estés al tanto de las últimas novedades',
     icon: <LocalLibraryIcon />,
   },
   {
-    title: 'Consultation With Mentor',
-    description: 'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore',
+    title: 'Citas con Expertos',
+    description: 'Agenda citas con nuestros expertos para resolver tus dudas y recibir asesoramiento personalizado',
     icon: <ContactSupportIcon />,
   },
 ]

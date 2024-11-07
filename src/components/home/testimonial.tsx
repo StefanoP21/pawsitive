@@ -78,7 +78,7 @@ const HomeTestimonial: FC = () => {
                 fontWeight: 'bold',
               }}
             >
-              Testimonial What our{' '}
+              Conoce a nuestos{' '}
               <Typography
                 component="mark"
                 sx={{
@@ -89,20 +89,20 @@ const HomeTestimonial: FC = () => {
                   backgroundColor: 'unset',
                 }}
               >
-                Students{' '}
+                Paseadores{' '}
                 <Box
                   sx={{
                     position: 'absolute',
-                    top: { xs: 20, md: 28 },
+                    top: { xs: 20, md: 34 },
                     left: 2,
-                    '& img': { width: { xs: 130, md: 175 }, height: 'auto' },
+                    '& img': { width: { xs: 130, md: 225 }, height: 'auto' },
                   }}
                 >
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img src="/images/headline-curve.svg" alt="Headline curve" />
                 </Box>
               </Typography>
-              Say
+              recomendados
             </Typography>
 
             <StyledSlickContainer>

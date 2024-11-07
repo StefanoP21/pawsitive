@@ -5,9 +5,9 @@ export const data: Array<Mentor> = [
     id: 1,
     photo: '/images/mentors/christian-buehner-DItYlc26zVI-unsplash.jpg',
     name: 'Jhon Dwirian',
-    category: 'UI/UX Design',
+    category: 'Médico Veterinario',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'Amplia experiencia como médico veterinario, especializado en animales domesticos y silvestres. Cuento con una maestría en medicina veterinaria y un doctorado en biología animal.',
     company: {
       name: 'Grab',
       logo: '/images/companies/grab.png',
@@ -17,9 +17,9 @@ export const data: Array<Mentor> = [
     id: 2,
     photo: '/images/mentors/jonas-kakaroto-KIPqvvTOC1s-unsplash.jpg',
     name: 'Leon S Kennedy',
-    category: 'Machine Learning',
+    category: 'Cirujano Veterinario',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'Actualmente trabajo como cirujano veterinario en una clínica especializada en animales domesticos. Cuento con más de 10 años de experiencia en el campo de la medicina veterinaria.',
     company: {
       name: 'Google',
       logo: '/images/companies/google.png',
@@ -28,10 +28,10 @@ export const data: Array<Mentor> = [
   {
     id: 3,
     photo: '/images/mentors/noah-buscher-8A7fD6Y5VF8-unsplash.jpg',
-    name: 'Nguyễn Thuy',
-    category: 'Android Development',
+    name: 'Elsa Jean',
+    category: 'Dermatólogo Veterinario',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'Especialista en dermatología veterinaria, cuento con una maestría en dermatología veterinaria y un doctorado en biología animal. Actualmente trabajo en una clínica especializada en animales domesticos.',
     company: {
       name: 'Airbnb',
       logo: '/images/companies/airbnb.png',
@@ -40,10 +40,10 @@ export const data: Array<Mentor> = [
   {
     id: 4,
     photo: '/images/mentors/philip-martin-5aGUyCW_PJw-unsplash.jpg',
-    name: 'Rizki Known',
-    category: 'Fullstack Development',
+    name: 'Erick Smith',
+    category: 'Nutricionista Veterinario',
     description:
-      'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'Nutricionista veterinario con más de 10 años de experiencia en el campo de la nutrición animal. Actualmente trabajo en una clínica especializada en animales domesticos.',
     company: {
       name: 'Microsoft',
       logo: '/images/companies/microsoft.png',
