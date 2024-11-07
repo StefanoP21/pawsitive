@@ -49,7 +49,7 @@ const MentorCardItem: FC<Props> = ({ item }) => {
           </Typography>
           <Box sx={{ '& img': { height: 26 } }}>
             {/* eslint-disable-next-line */}
-            <img src={item.company?.logo} alt={item.company?.name + ' logo'} />
+            {/* <img src={item.company?.logo} alt={item.company?.name + ' logo'} /> */}
           </Box>
         </Box>
       </Box>
