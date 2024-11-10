@@ -147,9 +147,9 @@ const HomeHero: FC = () => {
                     Empieza ahora
                   </StyledButton>
                 </ScrollLink>
-                <ScrollLink to="video-section" spy={true} smooth={true} offset={0} duration={350}>
-                  <StyledButton color="primary" size="large" variant="outlined" startIcon={<PlayArrowIcon />}>
-                    Ver vídeo
+                <ScrollLink to="feature" spy={true} smooth={true} offset={0} duration={350}>
+                  <StyledButton color="primary" size="large" variant="outlined">
+                    Conoce más
                   </StyledButton>
                 </ScrollLink>
               </Box>

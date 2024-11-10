@@ -6,18 +6,13 @@ import { SocialLink } from '@/interfaces/social-link'
 export const socialLinks: SocialLink[] = [
   {
     name: 'Instagram',
-    link: '#',
+    link: 'https://www.instagram.com/pawsitive_center/profilecard/?igsh=MTZsaWZweGd0Y3ltZA==',
     icon: '/images/icons/instagram.svg',
   },
   {
-    name: 'YouTube',
-    link: '#',
-    icon: '/images/icons/youtube.svg',
-  },
-  {
-    name: 'Twitter',
-    link: '#',
-    icon: '/images/icons/twitter.svg',
+    name: 'TikTok',
+    link: 'https://www.tiktok.com/@pawsitive_doc?_t=8rD1eIqfvbc&_r=1',
+    icon: '/images/icons/tiktok.svg',
   },
 ]
 

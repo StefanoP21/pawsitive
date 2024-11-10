@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import React, { FC, useState } from 'react'
 import Box from '@mui/material/Box'
 import InputBase from '@mui/material/InputBase'
 import Container from '@mui/material/Container'
@@ -6,6 +6,14 @@ import Typography from '@mui/material/Typography'
 import { StyledButton } from '../styled-button'
 
 const HomeNewsLetter: FC = () => {
+  const [message, setMessage] = useState('')
+
+  const handleSendMessage = (): void => {
+    const phoneNumber = '+51987052642'
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+    window.open(whatsappUrl, '_blank')
+  }
+
   return (
     <Box sx={{ backgroundColor: 'background.paper', py: { xs: 8, md: 10 } }}>
       <Container>
@@ -19,9 +27,9 @@ const HomeNewsLetter: FC = () => {
           }}
         >
           <Typography variant="h1" component="h2" sx={{ mb: 1, fontSize: { xs: 32, md: 42 } }}>
-            Suscribite a nuestro Boletín
+            Contacta con nosotros
           </Typography>
-          <Typography sx={{ mb: 6 }}>Registrate para recibir las últimas noticias y actualizaciones.</Typography>
+          <Typography sx={{ mb: 6 }}>Escríbenos para cualquier duda o sugerencia.</Typography>
 
           <Box
             sx={{
@@ -43,11 +51,13 @@ const HomeNewsLetter: FC = () => {
                 mr: { xs: 0, md: 3 },
                 mb: { xs: 2, md: 0 },
               }}
-              placeholder="Ingresa tu correo electrónico"
+              placeholder="Ingresa un mensaje"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
             />
             <Box>
-              <StyledButton disableHoverEffect size="large">
-                Suscribirse
+              <StyledButton disableHoverEffect size="large" onClick={handleSendMessage}>
+                Contactar
               </StyledButton>
             </Box>
           </Box>

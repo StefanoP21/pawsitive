@@ -8,9 +8,9 @@ export const data: Array<Testimonial> = [
       'Me gusta la compañia de los animales, son lo mejor que me ha pasado en la vida. Me encanta cuidarlos y darles todo mi amor. ¡Son lo mejor!',
     user: {
       id: 1,
-      name: 'Carmen Sánchez',
+      name: 'Julio Abad',
       professional: 'Estudiante de veterinaria',
-      photo: '1.jpg',
+      photo: 'julio.jpeg',
     },
   },
   {
@@ -20,32 +20,33 @@ export const data: Array<Testimonial> = [
       'Salgo a pasear a los perros y me encanta disfrutar de su compañia. Me encanta verlos felices y contentos.',
     user: {
       id: 1,
-      name: 'Pedro Rodríguez',
+      name: 'Verónica Milagros',
       professional: 'Diseñador de UI/UX',
-      photo: '2.jpg',
+      photo: 'veronica.jpg',
     },
   },
   {
     id: 3,
     title: '¡Siempre es bueno tener una mascota!',
-    content: 'En mi casa siempre hemos tenido mascotas, son parte de la familia y siempre nos alegran el día.',
+    content:
+      'Trabajo solo en mi propia oficina en mi depa y manejo mis tiempos por lo que puedo dedicarme al 100% al cuidado de cualquier mascota. Me encantan los animales en general.',
     user: {
       id: 1,
-      name: 'Sebastián Flores',
+      name: 'Francesco Saco',
       professional: 'Estudiante de veterinaria',
-      photo: '3.jpg',
+      photo: 'francesco.jpg',
     },
   },
   {
     id: 4,
-    title: 'El mejor amigo del hombre',
+    title: 'Cuidaré a tu mascota con todo mi amor',
     content:
-      'Los perros son los mejores amigos del hombre, siempre están ahí para nosotros y nos acompañan en todo momento.',
+      '¡Estoy muy feliz de recibir a todos! Extraña mucho a sus mascotas que viven en la casa de sus padres en Huacho por lo que tu engreído estará con todo su amor y experiencia :)',
     user: {
       id: 1,
-      name: 'Juan Pérez',
+      name: 'Marzia Arellano',
       professional: 'Estudiante de medicina',
-      photo: '4.jpg',
+      photo: 'marzia.jpg',
     },
   },
   {
@@ -55,9 +56,9 @@ export const data: Array<Testimonial> = [
       'Como amante de los animales, me encanta cuidarlos y darles todo mi amor. Son lo mejor que me ha pasado en la vida.',
     user: {
       id: 1,
-      name: 'María González',
+      name: 'Andrea Lancho',
       professional: 'Diseñadora Gráfica',
-      photo: '5.jpg',
+      photo: 'andrea.jpg',
     },
   },
 ]
