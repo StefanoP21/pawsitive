@@ -25,7 +25,7 @@ export const data: Array<Hotel> = [
     ratingCount: 8,
     minPrice: 55,
     maxPrice: 100,
-    url: 'https://es-la.facebook.com/baltoperu/',
+    url: 'https://www.hospedajeparaperros.com/',
   },
   {
     id: 3,
