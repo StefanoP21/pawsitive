@@ -10,6 +10,7 @@ import 'slick-carousel/slick/slick.css'
 import '@/styles/globals.css'
 import '@/styles/react-slick.css'
 import { NextPageWithLayout } from '@/interfaces/layout'
+import { Analytics } from '@vercel/analytics/react'
 // import 'slick-carousel/slick/slick-theme.css'
 
 // Client-side cache, shared for the whole session of the user in the browser.
@@ -36,6 +37,7 @@ const App: FC<AppPropsWithLayout> = (props: AppPropsWithLayout) => {
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
         <CssBaseline />
         {getLayout(<Component {...pageProps} />)}
+        <Analytics />
       </MUIProvider>
     </CacheProvider>
   )
